@@ -1,0 +1,31 @@
+@import-normalize;
+a:hover{
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body, html, #root {
+  height: 100%;
+ font-family: 'Montserrat';
+}
+p{
+  margin: 0;
+}
+pre{
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f1f2f3;
+}
+@media only screen and (max-width:576px) {
+  .img_login {
+    display: none;
+  }
+  .card_login{
+    margin: auto;
+  }
+  .form_login{
+    width: 100% !important;
+  }
+}
+.login_background{
+  background-image: url('https://www.faucetcrypto.com/images/vuexy-login-bg.jpg?04351a33eb1f49873e982c8b025d5718');
+}
